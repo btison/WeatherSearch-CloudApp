@@ -1,25 +1,26 @@
-# FeedHenry Hello World MBaaS Server
+# RHMAP Weather Search 
 
-This is a blank 'hello world' FeedHenry MBaaS. Use it as a starting point for building your APIs. 
+# Group Weather Search API
 
-# Group Hello World API
+# weather [/weather]
 
-# hello [/hello]
+'weather' endpoint.
 
-'Hello world' endpoint.
+## weather [POST]
 
-## hello [POST] 
-
-'Hello world' endpoint.
+'weather' endpoint.
 
 + Request (application/json)
     + Body
             {
-              "hello": "world"
+              "city": "Philadelphia",
+              "country": "US"
             }
 
 + Response 200 (application/json)
     + Body
             {
-              "msg": "Hello world"
+              "msg": "xx Celcius"
             }
+
+
